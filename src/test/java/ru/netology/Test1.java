@@ -9,11 +9,11 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class Test1 {
     @Test
-    void shouldReturn() {
+    void shouldTest() {
 
         // Given - When - Then
-           // Предусловия
-         given()
+                // Предусловия
+                given()
                 .baseUri("https://postman-echo.com")
                 .body("some data") // отправляемые данные (заголовки и query можно выставлять аналогично)
                 // Выполняемые действия
@@ -23,7 +23,7 @@ public class Test1 {
                 // Проверки
                 .then()
                 .statusCode(200)
-
-;
+                .body("data", equalTo("some data"))
+        ;
     }
 }
