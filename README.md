@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/uutfyou37r9cdql7?svg=true)](https://ci.appveyor.com/project/7Yuliya/postman-echo)
